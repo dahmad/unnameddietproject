@@ -16,12 +16,6 @@ The intention is to create a live, web-based version of something that I have lo
 
 ---
 
-### Is this solution overkill for the problem?
-
-Absolutely yes, but who ever learned by "underkilling" a problem? My Google Sheets have worked for the past two years or so because they are extensible and easy to update. My recently-added Python scripts simply enhance the process. This project may offer a further enhancement.
-
----
-
 ### So, what do I intend this project to be?
 
 * A serverless Python backend utilizing API Gateway, Lambda, and DynamoDB
@@ -57,6 +51,12 @@ When I prepared the data I had in Google Sheets for my Python scripts, in essenc
 <sup>1</sup> Note: I started this practice with the advent of COVID to minimize the time I spent in an enclosed, public space. It would have been nice to have had this tool then--getting the data I have now was a laborious process. While COVID may (hopefully) be on its way out, now that I have the data, I think it is worth continuing to use and update it.
 
 <sup>*</sup> I highlighted "create" and "generate," but obviously all CRUD operations will be supported.
+
+---
+
+### Is this solution overkill for the problem?
+
+Absolutely yes, but who ever learned by "underkilling" a problem? My Google Sheets have worked for the past two years or so because they are extensible and easy to update. My recently-added Python scripts simply enhance the process. This project may offer a further enhancement.
 
 ---
 ### Pie-in-the-sky future enhancements
