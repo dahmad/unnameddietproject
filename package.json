@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/dahmad/unnameddietproject/issues"
   },
-  "homepage": "https://github.com/dahmad/unnameddietproject#readme"
+  "homepage": "https://github.com/dahmad/unnameddietproject#readme",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.6"
+  }
 }
