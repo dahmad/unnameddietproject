@@ -1,12 +1,20 @@
 import os
-
 import boto3
-
 from flask import Flask, jsonify, request
+
+
 app = Flask(__name__)
 
-USERS_TABLE = os.environ['USERS_TABLE']
 IS_OFFLINE = os.environ.get('IS_OFFLINE')
+
+# Database Tables
+RECIPES_TABLE = os.environ['RECIPES_TABLE']
+INGREDIENTS_TABLE = os.environ['INGREDIENTS_TABLE']
+STORES_TABLE = os.environ['STORES_TABLE']
+INVENTORY_CHECKLISTS_TABLE = os.environ['INVENTORY_CHECKLISTS_TABLE']
+SHOPPING_LISTS_TABLE = os.environ['SHOPPING_LISTS_TABLE']
+COOKING_WORKFLOWS_TABLE = os.environ['COOKING_WORKFLOWS_TABLE']
+CALENDARS_TABLE = os.environ['CALENDARS_TABLE']
 
 if IS_OFFLINE:
     client = boto3.client(
