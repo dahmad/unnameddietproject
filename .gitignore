@@ -130,3 +130,5 @@ dmypy.json
 
 # Manually added
 node_modules/
+worklog.md
+.serverless/
