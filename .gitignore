@@ -133,3 +133,4 @@ node_modules/
 worklog.md
 .serverless/
 .dynamodb/
+scratch.py
